@@ -48,9 +48,9 @@ def reduce_to_total(arr, start = 0)
   result = start
   new_array = [] 
   i = 0 
-  while i < result.length 
-  new_array.push(result[i])
-  i +=1 
+  while i < arr.length 
+  new_array.push(arr[i])
+   result += i
 end 
 result 
 end
