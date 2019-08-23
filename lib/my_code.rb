@@ -76,6 +76,7 @@ def reduce_to_all_true (arr, start = true)
   end 
   result
  end
+ end
   
   
 # def map_to_negativize (array)
