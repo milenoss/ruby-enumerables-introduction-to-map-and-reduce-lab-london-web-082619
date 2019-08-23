@@ -54,7 +54,7 @@ end
 result 
 end
   
-def reduce_to_all_true (arr, start = 0)
+def reduce_to_all_true (arr, start = true)
     result = start 
    i = 0 
    while i < arr.length
