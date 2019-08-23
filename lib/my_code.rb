@@ -56,14 +56,17 @@ end
   
 def reduce_to_all_true(arr)
    i = 0 
-   while i < arr.length do
+   while i < arr.length 
      return false if !arr[i]
    i += 1 
   end
  return true
  end
   
-def reduce_to_any_true(arr,)
+# def reduce_to_any_true(arr)
+#   i = 0 
+#   while i< arr.length  
+#     return t
   
   
 # def map_to_negativize (array)
