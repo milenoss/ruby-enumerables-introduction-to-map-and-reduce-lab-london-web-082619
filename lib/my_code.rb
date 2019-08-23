@@ -54,9 +54,15 @@ end
 result 
 end
   
-  def reduce_to_all_true(arr, start = true)
+def reduce_to_all_true (arr, start = 0)
     result = start 
-  
+   i = 0 
+   while i < arr.length
+   result += arr[i]
+   i += 1 
+  end
+ result
+ end
   
   
   
