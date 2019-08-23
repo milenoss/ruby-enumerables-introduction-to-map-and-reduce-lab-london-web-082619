@@ -64,6 +64,15 @@ def reduce_to_all_true (arr, start = true)
  result
  end
   
+  def reduce_to_all_true (arr, start = nil)
+    result = start 
+   i = 0 
+   while i < arr.length
+   result != arr[i]
+   i += 1 
+  end
+ result
+ end
   
   
 # def map_to_negativize (array)
