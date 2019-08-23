@@ -53,9 +53,6 @@ def reduce_to_total(arr, start = 0)
   i +=1 
 
 end 
-
-  
-binding.pry
 end
   
   
