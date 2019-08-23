@@ -50,6 +50,10 @@ def reduce_to_total(arr, start = 0)
   i = 0 
   while i < arr.length 
   new_array.push(arr[i])
+  i +=1 
+
+end 
+
   
 binding.pry
 end
