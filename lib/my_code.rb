@@ -46,11 +46,10 @@ end
 
 def reduce_to_total(arr, start = 0)
   result = start
-  new_array = [] 
   i = 0 
   while i < arr.length 
-  new_array.push(arr[i])
-   result += i
+   result += arr[i]
+   i += 1
 end 
 result 
 end
